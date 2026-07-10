@@ -43,7 +43,7 @@ fun ChatMessageUserAvatar(
             )
             UIAvatar(
                 name = nickname,
-                modifier = Modifier.size(28.dp),
+                modifier = Modifier.size(36.dp),
                 value = avatar,
                 loading = false,
             )
@@ -72,7 +72,7 @@ fun ChatMessageAssistantAvatar(
                 if (showIcon) {
                     UIAvatar(
                         name = assistant.name,
-                        modifier = Modifier.size(28.dp),
+                        modifier = Modifier.size(36.dp),
                         value = assistant.avatar,
                         loading = loading,
                     )
